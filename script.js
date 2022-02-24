@@ -32,12 +32,7 @@ const onDelete = (item) => {
     }
 }
 
-// const deleteUsers=(td)=>{
 
-// let btn = document.getElementById("delete").parentNode
-// let result = btn.parentNode
-// result.remove()
-// }
 
 
 const onEdit = (td) => {
