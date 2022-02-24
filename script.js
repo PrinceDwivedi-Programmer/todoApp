@@ -2,8 +2,7 @@ let arr = []
 let newArr = []
 var flag = true
 let getUsers = async () => {
-    let data = await fetch("https://jsonplaceholder.typicode.com/todos")
-    let result = await data.json()
+   let result = await  fetch("https://jsonplaceholder.typicode.com/todos").then(res=>res.json()).catch(error=>console.log(error))
     arr = result
     console.log(arr)
     var table = document.getElementById('table');
